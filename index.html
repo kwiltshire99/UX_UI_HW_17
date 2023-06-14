@@ -1,38 +1,99 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="../UX_UI_HW_17/CSS/style.css" type="text/css">
         <title></title>
     </head>
     <body>
         <header class="navigation">
-            <div class="inline-block logo">
-                <img src="../UX_UI_HW_17/Images/Subtract-2.png" class="logo">
-                <nav class="inline-block">
-                    <ul>
-                        <li>CASE STUDIES</li>
-                        <li>CREATIVE PROJECTS</li>
-                        <li>ABOUT</li>
-                        <li>CONTACT</li>
-                        <li>LINKEDIN</li>
-                    </ul>
-                </nav>
+            <div class="navBar">
+                <div class="logo">
+                <img src="../UX_UI_HW_17/Images/Group 21.png" class="logo nameLogo">
+            </div>
+            <div class="menu">
+            <nav id='menu'>
+                <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+                <ul>
+                    <li><a href='URL placeholder'>CASE STUDIES</a></li>
+                    <li><a href='URL placeholder'>CREATIVE PROJECTS</a></li>
+                    <li><a href='URL placeholder'>ABOUT</a></li>
+                    <li><a href='URL placeholder'>CONTACT</a></li>
+                    <li><a href='URL placeholder'>LINKEDIN</a></li>
+                </ul>
+            </nav>
             </div>
         </header>
+        <section class="decoration">
+            <div class="block">
+                <h1 class="headerLight">NINA WILTSHIRE</h1>
+                <h3 class="header2Light">Chicago-Based UX Designer</h3>
+                <h3 class="header2Light">Other Text</h3>
+                <h3 class="header2Light">Other Text</h3>
+            </div>
+            <div class="stripes"></div>
+        </section>
         <section class="heroImg">
             <div class="content">
-                <img src="../UX_UI_HW_17/Images/1654181289182.jpeg">
-                <h2>INTRODUCING ME</h2>
-                    <div>
+                <img src="../UX_UI_HW_17/Images/1654181289182.jpeg" class="headshot">
+                <h2 class="intro">
+                    <img src="../UX_UI_HW_17/Images/Subtract-3.png" class="circle c1">
+                    INTRODUCING ME
+                </h2>
+                
+                    <div class="intro paragraph">
                         <p>I am currently working as a marketing specialist in B2B marketing but have grand aspirations to take on more work in the UX/UI field. Although I'm currently based in Chicago, I'm actually a mid-west transplant, originally from the great (not state) of Washington, DC. My family, and maybe more importantly, my dog still live in DC so I go back often and still think that city is one of the best in the world.</p>
                         <p>I firmly believe that creativity is a skill that can be learned and cultivated so I enjoy picking up new creative hobbies from learning instruments, writing short stories, painting, crocheting, and interior design. Currently, I am learning how to sew and practicing my mind-practice connection by trying to figure out how to make things I think up without a specific pattern. I enjoy learning new things and fleshing out new ideas, what they might look like, and how to actually execute them, something that has been very helpful as I've tried to get as much storage and utility out of my 8x8 bedroom as possible.</p>
                         <p>Nothing excites me more than a new project so, if you'd like to work together, shoot me a message and let's get in touch!</p>
                     </div>
-                <button>Download Resume</button>
             </div>
         </section>
+        <div class="resumeDownload">
+            <h2>DOWNLOAD MY RESUME</h2>
+            <button class="download">DOWNLOAD</button>
+        </div>
+        <div class="carousel">
+            
+            <div class="container-fluid px-4">
+                <div class="carouselText">
+                <h2 class="header2Light">WANT TO SEE MY WORK?</h2>
+                <p class="pLight">Take a look at some of my project case studies</p>
+                </div>
+                <div class="row gx-5">
+                    <div class="spacer"></div>
+                    <div class="cardContainer p-3 border col-lg-5 col-md-5 col-sm-12">
+                        <img src="../UX_UI_HW_17/Images/Subtract-3-Dark.png" class="circleDark">
+                        <div class="cardText">
+                        <h4>Government Agency Website Redesign</h4>
+                        <h5>UX DESIGN | UI DESIGN | RWD</h5>
+                        <p>Thoretical project to improve the usability, organization and design of the Department of Energy website using UX and Responsive Web Design principles.</p>
+                        </div>
+                    </div>
+                    <div class="cardContainer p-3 border col-lg-5 col-md-5 col-sm-12">
+                        <img src="../UX_UI_HW_17/Images/Subtract-3-Dark.png" class="circleDark">
+                        <div class="cardText">
+                        <h4>Travel App Product Development</h4>
+                        <h5>UX DESIGN | UI DESIGN | PRODUCT DEV</h5>
+                        <p>Thoretical project to conceptualize and develop a travel app to connect solo travelers to one another and activities in their travle destination.</p>
+                        </div> 
+                       
+                    </div> 
+                </div>
+                <h6 class="header6Light textCenter">VIEW ALL</h6>
+            </div>
+        </div>
+        <div class="contactMe">
+            <img src="../UX_UI_HW_17/Images/Subtract-3.png" class="circle c2">
+            <h2 class="contactHeader">INTERESTED IN CHATTING?</h2>
+            <div class="contactButtons">
+                <button>Send me an email</button>
+                <button>Schedule a call</button>
+            </div>
+        </div>
+        <div class="contentSpacer"></div>
         <footer>
-            <ul>
+            <img src="../UX_UI_HW_17/Images/Subtract.png" class="footerLogo">
+            <ul class="footer">
                 <li class="inline-block">ABOUT</li>
                 <li class="inline-block">SKILLS</li>
                 <li class="inline-block">CASE STUDIES</li>
